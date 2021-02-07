@@ -557,3 +557,105 @@ gMetatiles_UnionRoom:: @ 83DF392
 	.align 1
 gMetatileAttributes_UnionRoom:: @ 83DF6A2
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_Indoors::
+	.incbin "data/tilesets/primary/indoors/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Indoors::
+	.incbin "data/tilesets/primary/indoors/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_ArchanTunnel::
+	.incbin "data/tilesets/secondary/archantunnel/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_ArchanTunnel::
+	.incbin "data/tilesets/secondary/archantunnel/metatile_attributes.bin"
+	.align 1
+gMetatiles_HiddenGrottoSecretTemple::
+	.incbin "data/tilesets/secondary/hiddengrottosecrettemple/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_HiddenGrottoSecretTemple::
+	.incbin "data/tilesets/secondary/hiddengrottosecrettemple/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_WispForest::
+	.incbin "data/tilesets/secondary/wispforest/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_WispForest::
+	.incbin "data/tilesets/secondary/wispforest/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_AerousMuseum::
+	.incbin "data/tilesets/secondary/aerousmuseum/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_AerousMuseum::
+	.incbin "data/tilesets/secondary/aerousmuseum/metatile_attributes.bin"
+	.align 1
+gMetatiles_FrostbiteCave::
+	.incbin "data/tilesets/secondary/frostbitecave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_FrostbiteCave::
+	.incbin "data/tilesets/secondary/frostbitecave/metatile_attributes.bin"
+	.align 1
+gMetatiles_Winter::
+	.incbin "data/tilesets/primary/winter/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Winter::
+	.incbin "data/tilesets/primary/winter/metatile_attributes.bin"
+	.align 1
+gMetatiles_IgnisRoost::
+	.incbin "data/tilesets/secondary/ignisroost/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_IgnisRoost::
+	.incbin "data/tilesets/secondary/ignisroost/metatile_attributes.bin"
+	.align 1
+gMetatiles_ApexTemple::
+	.incbin "data/tilesets/secondary/apextemple/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_ApexTemple::
+	.incbin "data/tilesets/secondary/apextemple/metatile_attributes.bin"
+	.align 1
+gMetatiles_SabuloTower::
+	.incbin "data/tilesets/secondary/sabulotower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_SabuloTower::
+	.incbin "data/tilesets/secondary/sabulotower/metatile_attributes.bin"
+	.align 1
+gMetatiles_NemesisCave::
+	.incbin "data/tilesets/secondary/nemesiscave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_NemesisCave::
+	.incbin "data/tilesets/secondary/nemesiscave/metatile_attributes.bin"
+	.align 1
+gMetatiles_Swamp::
+	.incbin "data/tilesets/primary/swamp/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Swamp::
+	.incbin "data/tilesets/primary/swamp/metatile_attributes.bin"
+	.align 1
+gMetatiles_BattleMarsh::
+	.incbin "data/tilesets/secondary/battlemarsh/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_BattleMarsh::
+	.incbin "data/tilesets/secondary/battlemarsh/metatile_attributes.bin"
+	.align 1
+gMetatiles_TelmurkGym::
+	.incbin "data/tilesets/secondary/telmurkgym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_TelmurkGym::
+	.incbin "data/tilesets/secondary/telmurkgym/metatile_attributes.bin"

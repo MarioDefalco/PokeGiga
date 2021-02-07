@@ -830,3 +830,157 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_Indoors::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Indoors
+	.4byte gTilesetPalettes_Indoors
+	.4byte gMetatiles_Indoors
+	.4byte gMetatileAttributes_Indoors
+	.4byte NULL
+
+	.align 2
+gTileset_ArchanTunnel::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_ArchanTunnel
+	.4byte gTilesetPalettes_ArchanTunnel
+	.4byte gMetatiles_ArchanTunnel
+	.4byte gMetatileAttributes_ArchanTunnel
+	.4byte NULL
+
+	.align 2
+gTileset_HiddenGrottoSecretTemple::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_HiddenGrottoSecretTemple
+	.4byte gTilesetPalettes_HiddenGrottoSecretTemple
+	.4byte gMetatiles_HiddenGrottoSecretTemple
+	.4byte gMetatileAttributes_HiddenGrottoSecretTemple
+	.4byte InitTilesetAnim_HiddenGrottoSecretTemple
+
+	.align 2
+gTileset_WispForest::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_WispForest
+	.4byte gTilesetPalettes_WispForest
+	.4byte gMetatiles_WispForest
+	.4byte gMetatileAttributes_WispForest
+	.4byte NULL
+
+	.align 2
+gTileset_AerousMuseum::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AerousMuseum
+	.4byte gTilesetPalettes_AerousMuseum
+	.4byte gMetatiles_AerousMuseum
+	.4byte gMetatileAttributes_AerousMuseum
+	.4byte NULL
+
+	.align 2
+gTileset_FrostbiteCave::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_FrostbiteCave
+	.4byte gTilesetPalettes_FrostbiteCave
+	.4byte gMetatiles_FrostbiteCave
+	.4byte gMetatileAttributes_FrostbiteCave
+	.4byte NULL
+
+	.align 2
+gTileset_Winter::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Winter
+	.4byte gTilesetPalettes_Winter
+	.4byte gMetatiles_Winter
+	.4byte gMetatileAttributes_Winter
+	.4byte InitTilesetAnim_Winter
+
+	.align 2
+gTileset_IgnisRoost::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_IgnisRoost
+	.4byte gTilesetPalettes_IgnisRoost
+	.4byte gMetatiles_IgnisRoost
+	.4byte gMetatileAttributes_IgnisRoost
+	.4byte NULL
+
+	.align 2
+gTileset_ApexTemple::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_ApexTemple
+	.4byte gTilesetPalettes_ApexTemple
+	.4byte gMetatiles_ApexTemple
+	.4byte gMetatileAttributes_ApexTemple
+	.4byte NULL
+
+	.align 2
+gTileset_SabuloTower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_SabuloTower
+	.4byte gTilesetPalettes_SabuloTower
+	.4byte gMetatiles_SabuloTower
+	.4byte gMetatileAttributes_SabuloTower
+	.4byte NULL
+
+	.align 2
+gTileset_NemesisCave::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_NemesisCave
+	.4byte gTilesetPalettes_NemesisCave
+	.4byte gMetatiles_NemesisCave
+	.4byte gMetatileAttributes_NemesisCave
+	.4byte NULL
+
+	.align 2
+gTileset_Swamp::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Swamp
+	.4byte gTilesetPalettes_Swamp
+	.4byte gMetatiles_Swamp
+	.4byte gMetatileAttributes_Swamp
+	.4byte InitTilesetAnim_General
+
+	.align 2
+gTileset_BattleMarsh::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_BattleMarsh
+	.4byte gTilesetPalettes_BattleMarsh
+	.4byte gMetatiles_BattleMarsh
+	.4byte gMetatileAttributes_BattleMarsh
+	.4byte NULL
+
+	.align 2
+gTileset_TelmurkGym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_TelmurkGym
+	.4byte gTilesetPalettes_TelmurkGym
+	.4byte gMetatiles_TelmurkGym
+	.4byte gMetatileAttributes_TelmurkGym
+	.4byte NULL
